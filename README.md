@@ -1,10 +1,13 @@
-Predicting YouTube Video Views
+# Predicting YouTube Video Views
 
-Overview
+## Overview
 
-This project aims to predict the number of views a YouTube video will receive using various machine learning regression models. It explores feature engineering, data cleaning, exploratory data analysis (EDA), and model evaluation to determine the best-performing regression algorithm.
+This project aims to :-
+- bridge the gap between theory and practical knowledge by self implementing *sklearn.linear_model*
+- predict the number of views a YouTube video will receive using various machine learning regression models. 
+It explores feature engineering, data cleaning, exploratory data analysis (EDA), and model evaluation to determine the best-performing regression algorithm.
 
-Features
+## Features
 
 Data Cleaning & Feature Engineering: Handles missing values and refines dataset features.
 
@@ -26,35 +29,54 @@ Model Evaluation: Uses metrics such as R-squared, Mean Squared Error, and Mean A
 
 Country-Specific Analysis: Runs the best-performing model on YouTube video data from the USA and Canada.
 
-Installation
+## Installation
 
 To run this project, install the required dependencies:
-
+```bash
 pip install pandas numpy scikit-learn seaborn matplotlib statsmodels
+```
 
-Usage
+## Usage
 
-Load the dataset (e.g., INvideos.csv).
+1. Load the dataset (e.g., INvideos.csv).
 
-Perform data preprocessing and exploratory analysis.
+2. Perform **data preprocessing** and **exploratory analysis**.
 
-Train and evaluate different regression models.
+3. Train and evaluate different regression models and compare their performance with the *self_made_linear_model*.
 
-Identify the best-performing model for predicting YouTube video views.
+4. Identify the **best-performing** model for predicting YouTube video views.
 
-Extend the analysis to country-specific datasets (e.g., USA, Canada).
+5. Extend the analysis to country-specific datasets (e.g., USA, Canada).
 
-Results
+## Results
+
+The *self_made_linear_model* was at par with the *sklearn.linear_model*
 
 The best-performing model for predicting video views was Random Forest Regressor.
 
 The model was further fine-tuned and tested across different country datasets.
 
-Acknowledgments
+## Acknowledgments
 
-This project was developed as part of an academic exploration into predictive modeling and machine learning applications.
+- This project was developed as part of an academic initiative to explore predictive modeling and machine learning applications.
+- The primary objective was to bridge theoretical knowledge with practical implementation.
+- The development of self_made_linear_model provided valuable insights into regression techniques and model optimization, enhancing the overall understanding of machine learning principles
 
-License
+## License
 
 This project is open-source and available for use under the MIT License.
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Authors
+
+- [@Swini27](https://www.github.com/Swini27)
 
