@@ -38,7 +38,7 @@ pip install pandas numpy scikit-learn seaborn matplotlib statsmodels
 
 ## Usage
 
-1. Load the dataset (e.g., INvideos.csv).
+1. Load the dataset ([here](https://www.kaggle.com/datasets/datasnaek/youtube-new)).
 
 2. Perform **data preprocessing** and **exploratory analysis**.
 
