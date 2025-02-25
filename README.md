@@ -9,25 +9,25 @@ It explores feature engineering, data cleaning, exploratory data analysis (EDA),
 
 ## Features
 
-Data Cleaning & Feature Engineering: Handles missing values and refines dataset features.
+- Data Cleaning & Feature Engineering: Handles missing values and refines dataset features.
 
-Exploratory Data Analysis (EDA): Visualizes and analyzes key trends in the dataset.
+- Exploratory Data Analysis (EDA): Visualizes and analyzes key trends in the dataset.
 
-Machine Learning Models: Implements multiple regression models, including:
+- Machine Learning Models: Implements multiple regression models, including:
+    
+    - Self-made Linear Regression
+    
+    - Decision Tree Regressor
+    
+    - Random Forest Regressor
+    
+    - AdaBoost Regressor
+    
+    - Gradient Boosting Regressor
 
-Self-made Linear Regression
+- Model Evaluation: Uses metrics such as R-squared, Mean Squared Error, and Mean Absolute Error to compare model performance.
 
-Decision Tree Regressor
-
-Random Forest Regressor
-
-AdaBoost Regressor
-
-Gradient Boosting Regressor
-
-Model Evaluation: Uses metrics such as R-squared, Mean Squared Error, and Mean Absolute Error to compare model performance.
-
-Country-Specific Analysis: Runs the best-performing model on YouTube video data from the USA and Canada.
+- Country-Specific Analysis: Runs the best-performing model on YouTube video data from the USA and Canada.
 
 ## Installation
 
